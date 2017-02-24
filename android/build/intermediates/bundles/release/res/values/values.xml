@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/tyler/workspace/rn-space/HFHE001_iSocialApp/node_modules/react-native-baidu-map/android/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">RNbaidumap</string>
+</resources>
