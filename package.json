@@ -1,68 +1,66 @@
 {
   "_args": [
     [
-      "https://github.com/zzzkk2009/react-native-baidu-map",
-      "/Users/tyler/workspace/rn-space/HFHE001_iSocialApp"
+      "https://github.com/React-Native-Library/rn-baidu-location.git"
     ]
   ],
-  "_from": "git+https://github.com/zzzkk2009/react-native-baidu-map.git",
-  "_id": "@zzzkk2009/react-native-baidu-map@1.0.3",
+  "_from": "git+https://github.com/React-Native-Library/rn-baidu-location.git",
+  "_id": "rn-baidu-location@1.0.0",
   "_inCache": true,
   "_installable": true,
-  "_location": "/@zzzkk2009/react-native-baidu-map",
+  "_location": "rn-baidu-location",
   "_phantomChildren": {},
   "_requested": {
     "hosted": {
       "directUrl": "https://raw.githubusercontent.com/zzzkk2009/react-native-baidu-map/master/package.json",
-      "gitUrl": "git://github.com/zzzkk2009/react-native-baidu-map.git",
-      "httpsUrl": "git+https://github.com/zzzkk2009/react-native-baidu-map.git",
+      "gitUrl": "git://github.com/React-Native-Library/rn-baidu-location.git",
+      "httpsUrl": "git+https://github.com/React-Native-Library/rn-baidu-location.git",
       "shortcut": "github:zzzkk2009/react-native-baidu-map",
-      "ssh": "git@github.com:zzzkk2009/react-native-baidu-map.git",
-      "sshUrl": "git+ssh://git@github.com/zzzkk2009/react-native-baidu-map.git",
+      "ssh": "git@github.com/React-Native-Library/rn-baidu-location.git",
+      "sshUrl": "git+ssh://github.com/React-Native-Library/rn-baidu-location.git",
       "type": "github"
     },
     "name": null,
-    "raw": "https://github.com/zzzkk2009/react-native-baidu-map",
-    "rawSpec": "https://github.com/zzzkk2009/react-native-baidu-map",
+    "raw": "https://github.com/React-Native-Library/rn-baidu-location.git",
+    "rawSpec": "https://github.com/React-Native-Library/rn-baidu-location.git",
     "scope": null,
-    "spec": "git+https://github.com/zzzkk2009/react-native-baidu-map.git",
+    "spec": "git+https://github.com/React-Native-Library/rn-baidu-location.git",
     "type": "hosted"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "git+https://github.com/zzzkk2009/react-native-baidu-map.git#e9f6d9d13dc4e4f98d0c980ff34a3bb1746d070a",
+  "_resolved": "git+https://github.com/React-Native-Library/rn-baidu-location.git",
   "_shasum": "5d0c9bfa05be76eed638c8461ba334d3566667bb",
   "_shrinkwrap": null,
-  "_spec": "https://github.com/zzzkk2009/react-native-baidu-map",
-  "_where": "/Users/tyler/workspace/rn-space/HFHE001_iSocialApp",
+  "_spec": "https://github.com/React-Native-Library/rn-baidu-location.git",
   "author": {
-    "name": "zachary"
+    "name": "Richard Jiang"
   },
   "bugs": {
-    "url": "https://github.com/zzzkk2009/react-native-baidu-map/issues"
+    "url": "https://github.com/React-Native-Library/rn-baidu-location.git/issues"
   },
   "dependencies": {},
   "description": "Baidu Map SDK modules and view for React Native(Android & IOS), support react native 0.38+.",
   "devDependencies": {},
   "gitHead": "e9f6d9d13dc4e4f98d0c980ff34a3bb1746d070a",
-  "homepage": "https://github.com/zzzkk2009/react-native-baidu-map#readme",
+  "homepage": "https://github.com/React-Native-Library/rn-baidu-location.git#readme",
   "keywords": [
     "Baidu Map",
     "React Native"
   ],
   "license": "ISC",
   "main": "index.js",
-  "name": "@zzzkk2009/react-native-baidu-map",
+  "name": "rn-baidu-location",
   "optionalDependencies": {},
   "readme": "# react-native-baidu-map\nBaidu Map SDK modules and view for React Native(Android &amp; IOS)\n",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zzzkk2009/react-native-baidu-map.git"
+    "url": "git+https://github.com/React-Native-Library/rn-baidu-location.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.3"
+  "version": "1.0.0"
 }
