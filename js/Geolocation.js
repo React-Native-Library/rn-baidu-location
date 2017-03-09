@@ -34,16 +34,20 @@ export default {
     if (Platform.OS == 'ios') {
       return new Promise((resolve, reject) => {
         navigator.geolocation.getCurrentPosition((position) => {
-          try{
-		          callApi(position.coords.latitude, position.coords.longitude, key).then((data) => {
-		            resolve({province: data.result.addressComponent.province, city: data.result.addressComponent.city, cityCode: data.result.cityCode});
-              },err => {
-		            console.log(err);
-				          reject(err);
-              })
-          }catch (e) {
-		          reject(err);
-          }
+        		if(key&&key!==''){
+				        try{
+						        callApi(position.coords.latitude, position.coords.longitude, key).then((data) => {
+								        resolve({latitude: position.coords.latitude, longitude: position.coords.longitude, province: data.result.addressComponent.province, city: data.result.addressComponent.city, cityCode: data.result.cityCode});
+						        },err => {
+								        console.log(err);
+								        reject(err);
+						        })
+				        }catch (e) {
+						        reject(err);
+				        }
+		        }else{
+        				resolve(position);
+		        }
         }, (error) => {
           reject(error);
         }, {

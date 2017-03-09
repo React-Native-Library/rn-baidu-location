@@ -5,17 +5,17 @@
     ]
   ],
   "_from": "git+https://github.com/React-Native-Library/rn-baidu-location.git",
-  "_id": "rn-baidu-location@1.0.0",
+  "_id": "rn-baidu-location@1.0.4",
   "_inCache": true,
   "_installable": true,
   "_location": "rn-baidu-location",
   "_phantomChildren": {},
   "_requested": {
     "hosted": {
-      "directUrl": "https://raw.githubusercontent.com/zzzkk2009/react-native-baidu-map/master/package.json",
+      "directUrl": "https://github.com/React-Native-Library/rn-baidu-location.git/master/package.json",
       "gitUrl": "git://github.com/React-Native-Library/rn-baidu-location.git",
       "httpsUrl": "git+https://github.com/React-Native-Library/rn-baidu-location.git",
-      "shortcut": "github:zzzkk2009/react-native-baidu-map",
+      "shortcut": "github:rn-baidu-location",
       "ssh": "git@github.com/React-Native-Library/rn-baidu-location.git",
       "sshUrl": "git+ssh://github.com/React-Native-Library/rn-baidu-location.git",
       "type": "github"
@@ -31,7 +31,6 @@
     "#USER"
   ],
   "_resolved": "git+https://github.com/React-Native-Library/rn-baidu-location.git",
-  "_shasum": "5d0c9bfa05be76eed638c8461ba334d3566667bb",
   "_shrinkwrap": null,
   "_spec": "https://github.com/React-Native-Library/rn-baidu-location.git",
   "author": {
@@ -62,5 +61,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.0"
+  "version": "1.0.4"
 }
